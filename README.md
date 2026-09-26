@@ -1,4 +1,4 @@
-# lp5-to-loupix
+# loupedeck-to-loupixdeck
 
 A small converter from Logitech/Loupedeck `.lp5` profiles to [LoupixDeck](https://github.com/RadiatorTwo/LoupixDeck) `.loupixprofile` packages.
 
