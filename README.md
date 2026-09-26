@@ -1,6 +1,8 @@
 # lp5-to-loupix
 
-A small converter from Logitech/Loupedeck `.lp5` profiles to LoupixDeck `.loupixprofile` packages.
+A small converter from Logitech/Loupedeck `.lp5` profiles to [LoupixDeck](https://github.com/RadiatorTwo/LoupixDeck) `.loupixprofile` packages.
+
+I wrote this for my own migration. I do not expect to develop it further now that the migration is done, but I am sharing it in case it helps someone else. Check the conversion report and test the imported profile before relying on it.
 
 ## What it converts
 
@@ -33,6 +35,8 @@ python3 lp5_to_loupix.py profile.lp5 \
 `--template` is optional. It inherits target device and schema metadata from a real LoupixDeck export, without copying that export's profile content.
 
 The converter also writes `profile.conversion-report.json` next to the output by default.
+
+Profiles and conversion reports can contain personal configuration. Review them before sharing; this repository does not include example profiles.
 
 ## Known gaps
 
